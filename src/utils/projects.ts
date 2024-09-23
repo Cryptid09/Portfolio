@@ -59,8 +59,20 @@ url: `https://bildmynotes.com
      , description: `Notebin is a platform designed to help students find, organize, and share academic
        notes and materials. It offers a centralized hub for all your study resources, making it easy to 
        access a wide range of study materials and contribute to the community by sharing your own notes.`,
-      url: "https://github.com/yourusername/project2",
+      url: "https://github.com/im/project2",
       stack:""
+
+    },
+
+    {
+      name: "Pong-Game",
+      emoji :`
+
+                                                                       
+      `
+     , description: `Simple Pong game made using Golang and Ebiten`,
+      url: "https://github.com/Cryptid09/ping-pong",
+      stack:"Golang, Ebiten"
 
     },
     // Add more projects as needed
