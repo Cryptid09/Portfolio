@@ -24,7 +24,6 @@ Type 'neofetch' to display summary.
 
 // Redirection
 
-
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
@@ -36,13 +35,11 @@ More about me:
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  alert('Abhi banaya nhi yr')
+  window.open(
+    'https://docs.google.com/document/d/1xR-Ret1HOxXmy3w795Q4gj16hWtPCd4r/edit?usp=sharing&ouid=118136320886729596719&rtpof=true&sd=true',
+  );
   return 'Opening resume...';
 };
-
-
-
-
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
@@ -96,8 +93,6 @@ export const ls = async (args: string[]): Promise<string> => {
   (Well, its not a real terminal)`;
 };
 
-
-
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
@@ -136,8 +131,8 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const banner = (args?: string[]): string => {
   return `  
 
- ██████╗██████╗ ██╗   ██╗██████╗ ████████╗██╗██████╗ 
-██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██║██╔══██╗
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗██╗██████╗                                  
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██║██╔══██╗                          
 ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║██║  ██║
 ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║██║  ██║
 ╚██████╗██║  ██║   ██║   ██║        ██║   ██║██████╔╝
